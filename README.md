@@ -1,16 +1,18 @@
-## Hi there 👋
+# Hi, I'm Anis
 
-<!--
-**Ar-5060/Ar-5060** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+ Web Developer | Java | Spring Boot | React  
+ Passionate about building full-stack web applications
 
-Here are some ideas to get you started:
+## Skills
+- Frontend: HTML, CSS, Bootstrap, JavaScript, React
+- Backend: Java, Spring Boot
+- Programming: Java, C, Python
+- Tools: Git, GitHub
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+##  Projects
+- E-commerce Web App (Spring Boot + React)
+- Student Management System
+- REST API using Spring Boot
+- Etc
+📫 Contact: Arrahman5060@gmail.com
+
