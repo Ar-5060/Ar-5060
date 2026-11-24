@@ -1,31 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0f0c29"/><stop offset="0.5" stop-color="#302b63"/><stop offset="1" stop-color="#24243e"/>
-    </linearGradient>
-    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#c4b5fd"/><stop offset="0.5" stop-color="#ffffff"/><stop offset="1" stop-color="#a78bfa"/>
-    </linearGradient>
-    <clipPath id="clip"><rect width="1200" height="260" rx="18"/></clipPath>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#a78bfa" stroke-opacity=".06" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="85%" cy="20%" r="60%">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity=".35"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="1200" height="300" rx="14"/></clipPath>
+    <clipPath id="c1"><rect x="60" y="88" height="40" width="0"><animate attributeName="width" values="0;0;420" keyTimes="0;.2;1" dur="1.4s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="60" y="130" height="60" width="0"><animate attributeName="width" values="0;0;900" keyTimes="0;.55;1" dur="2.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="60" y="196" height="40" width="0"><animate attributeName="width" values="0;0;520" keyTimes="0;.7;1" dur="3.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="60" y="236" height="40" width="0"><animate attributeName="width" values="0;0;1000" keyTimes="0;.75;1" dur="4.8s" fill="freeze"/></rect></clipPath>
   </defs>
   <style>
-    .wave1{animation:w 9s ease-in-out infinite alternate}
-    .wave2{animation:w 6s ease-in-out infinite alternate-reverse}
-    @keyframes w{from{transform:translateX(0)}to{transform:translateX(-120px)}}
-    .title{font:800 62px 'Segoe UI',Verdana,sans-serif;fill:url(#txt);animation:fade 1.4s ease-out .2s both}
-    .sub{font:500 21px 'Segoe UI',Verdana,sans-serif;fill:#ddd6fe;letter-spacing:1px;animation:fade 1.4s ease-out .9s both}
-    @keyframes fade{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
-    .dot{fill:#a78bfa;animation:tw 3s ease-in-out infinite}
-    @keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+    .mono{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
+    .prompt{fill:#7d8590;font-size:20px}
+    .accent{fill:#a78bfa}
+    .name{fill:#f0f6fc;font-size:48px;font-weight:700;font-family:'Segoe UI',Inter,Helvetica,Arial,sans-serif;letter-spacing:-.5px}
+    .out{fill:#c9d1d9;font-size:20px}
   </style>
-  <g clip-path="url(#clip)">
-    <rect width="1200" height="260" fill="url(#bg)"/>
-    <circle class="dot" cx="90" cy="50" r="2.5"/><circle class="dot" cx="260" cy="30" r="2" style="animation-delay:1s"/>
-    <circle class="dot" cx="980" cy="45" r="2.5" style="animation-delay:.5s"/><circle class="dot" cx="1110" cy="90" r="2" style="animation-delay:1.6s"/>
-    <circle class="dot" cx="560" cy="25" r="2" style="animation-delay:2.2s"/><circle class="dot" cx="760" cy="60" r="1.8" style="animation-delay:1.2s"/>
-    <path class="wave1" fill="#7c3aed" opacity=".25" d="M0 205 Q 75 175 150 205 T 300 205 T 450 205 T 600 205 T 750 205 T 900 205 T 1050 205 T 1200 205 T 1350 205 V260 H0Z"/>
-    <path class="wave2" fill="#a78bfa" opacity=".18" d="M0 222 Q 100 195 200 222 T 400 222 T 600 222 T 800 222 T 1000 222 T 1200 222 T 1400 222 V260 H0Z"/>
-    <text class="title" x="600" y="118" text-anchor="middle">Hi, I'm Anis</text>
-    <text class="sub" x="600" y="162" text-anchor="middle">Full-Stack Developer  •  Java &amp; Spring Boot  •  React  •  ML Enthusiast</text>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="#0d1117"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+    <rect width="1200" height="300" fill="url(#glow)"/>
+    <circle cx="36" cy="32" r="6" fill="#ff5f57"/><circle cx="56" cy="32" r="6" fill="#febc2e"/><circle cx="76" cy="32" r="6" fill="#28c840"/>
+    <text x="600" y="38" text-anchor="middle" class="mono" fill="#7d8590" font-size="14">anis@github: ~</text>
+    <line x1="0" y1="60" x2="1200" y2="60" stroke="#30363d"/>
+    <g clip-path="url(#c1)"><text x="60" y="116" class="mono prompt"><tspan class="accent">~</tspan> $ whoami</text></g>
+    <g clip-path="url(#c2)"><text x="60" y="174" class="name">Anisur Rahman<tspan fill="#a78bfa">.</tspan></text></g>
+    <g clip-path="url(#c3)"><text x="60" y="224" class="mono prompt"><tspan class="accent">~</tspan> $ cat focus.txt</text></g>
+    <g clip-path="url(#c4)"><text x="60" y="262" class="mono out">Full-stack web with Spring Boot &amp; React · Applied machine learning <tspan fill="#a78bfa">█<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1s" repeatCount="indefinite"/></tspan></text></g>
   </g>
+  <rect x=".5" y=".5" width="1199" height="299" rx="14" fill="none" stroke="#30363d"/>
 </svg>
