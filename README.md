@@ -78,8 +78,7 @@ I'm a Software Engineering student at **Daffodil International University**, Dha
 ## Activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ar-5060&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=a78bfa&text_color=c9d1d9&hide_rank=true" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ar-5060&layout=compact&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9" alt="Top languages"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ar-5060&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=a78bfa&text_color=c9d1d9&hide_rank=true&hide=stars,contribs&custom_title=Anisur%20Rahman%27s%20GitHub%20Stats" alt="GitHub stats"/>
 </p>
 
 <p align="center">
