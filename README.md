@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner.svg" width="100%" alt="Anisur Rahman — Full-stack web & applied machine learning"/>
+  <img src="./assets%20/banner.svg" width="100%" alt="Anisur Rahman — Full-stack web & applied machine learning"/>
 </p>
 
 <p align="center">
@@ -91,7 +91,7 @@ I'm a Software Engineering student at **Daffodil International University**, Dha
 </p>
 
 <p align="center">
-  <img src="./footer.svg" width="100%" alt=""/>
+  <img src="./assets%20/footer.svg" width="100%" alt=""/>
 </p>
 
 <p align="center"><sub>Reach me at <a href="mailto:arrahman5060@gmail.com">arrahman5060@gmail.com</a></sub></p>
